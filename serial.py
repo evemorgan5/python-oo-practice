@@ -34,7 +34,7 @@ class SerialGenerator:
 
     def generate(self):
         """ Adding 1 to current number each time generator method is run """
-        self.current_num = 1 + self.current_num
+        self.current_num += 1
         return self.current_num
 
     def reset(self):
